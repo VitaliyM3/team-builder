@@ -9,7 +9,7 @@ function App() {
   // console.log("this is data", data);
 
   const addMember = member => {
-    setMembers({ ...members, member })
+    setMembers([ ...members, member ])
   };
 
   return (
